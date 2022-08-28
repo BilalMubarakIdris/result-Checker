@@ -24,29 +24,29 @@ A Result Management System using HTML, CSS, JavaScript , Node and using MVC Mode
 
 ## Project Structure
 
-<img width="267" alt="Project structure" src="https://user-images.githubusercontent.com/63288542/149562789-4f73ff63-f0cb-49ca-98a3-a24d1d3480dd.PNG">
+<img width="267" alt="Project structure" src="https://user-images.githubusercontent.com/50290637/187074720-303bc9f0-d5e8-4564-adb5-0b906cf5871b.png">
 
 ## HomePage
 
-<img width="400" alt="homepage" src="https://user-images.githubusercontent.com/63288542/149562845-9e15edce-4292-4ae7-9122-eb7c0e0da909.PNG">
+<img width="400" alt="homepage" src="https://user-images.githubusercontent.com/50290637/187074742-b3927b32-b1b7-4fe7-9dc1-f66df464656c.png">
 
-## Teacher Login
+## Admin Login
 
-<img width="400" alt="teacher login" src="https://user-images.githubusercontent.com/63288542/149562922-5e7065ea-1fc1-44fa-bc45-503099bb4635.PNG">
+<img width="400" alt="Admin login" src="https://user-images.githubusercontent.com/50290637/187074776-b1646db9-c992-4abd-a158-741501792f3a.png">
 
-## Teacher dashboard
+## Admin dashboard
 
-<img width="400" alt="teacher dashboard" src="https://user-images.githubusercontent.com/63288542/149563436-2ea54c38-32d7-44a7-85a6-d53a031bb0b9.PNG">
+<img width="400" alt="Admin dashboard" src="https://user-images.githubusercontent.com/50290637/187074815-06a9d3b8-6c31-4bbd-b226-4963773ab022.png">
 
 
 ## View All Students Result
 
-<img width="400" alt="view all students" src="https://user-images.githubusercontent.com/63288542/149562977-8e2d30db-ef9e-464d-83c5-250b09b6ded4.PNG">
+<img width="400" alt="view all students" src="https://user-images.githubusercontent.com/50290637/187074836-eccb3dab-893e-4725-ae94-f436f25543fc.png">
 
 ## Add student result
 
-<img width="400" alt="add student" src="https://user-images.githubusercontent.com/63288542/149562992-e2ca4332-18db-4a95-9add-b3460e8b2521.PNG">
+<img width="400" alt="add student" src="https://user-images.githubusercontent.com/50290637/187074857-227365db-7135-4ef1-9302-d2f430c1096d.png">
 
 ## Student Login
 
-<img width="400" alt="student login" src="https://user-images.githubusercontent.com/63288542/149563029-e6640265-693d-49b5-af0f-5a4949fadb71.PNG">
+<img width="400" alt="student login" src="https://user-images.githubusercontent.com/50290637/187074870-904d927f-0dc4-4652-bd39-992784f8c2c4.png">
