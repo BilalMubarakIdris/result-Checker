@@ -1,4 +1,6 @@
-# Result-Management-Application
+# Result Checker
+this project was built porposely for the final year project for National Diploma Program at Nuhu Bamalli Polytechnic, Zaria
+
 A Result Management System using HTML, CSS, JavaScript , Node and using MVC Model.<br/>
 • Two types of users can login to application by clicking a link on navbar in the homepage.<br/>
 • Students can enter their Registration number and date of birth to view their result.<br/>
