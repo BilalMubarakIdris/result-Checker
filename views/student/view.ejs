@@ -1,0 +1,73 @@
+<style>
+  .btn-print{
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+  }
+</style>
+
+<a href="/" class="btn btn-info" style="margin-top:5px;">Logout</a>
+<div class="profileBox">
+  <img src="https://img.icons8.com/ios/150/000000/administrator-male--v1.png"/>
+  <h1>Name : <%= one.name %> </h1>
+  <h2>Roll No. : <%= one.roll %> </h2>
+</div>
+<div class="stuTable">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Courses Name</th>
+        <th scope="col">Score (?/100)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Introduction To Programming(COM113)</td>
+        <td><%= one.com113 %> </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Descriptive Statistics(STAT111)</td>
+        <td><%= one.stat111 %> </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Digital Electronics(COM112)</td>
+        <td><%= one.com112 %> </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Communication Skills</td>
+        <td><%= one.comm_skills %> </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Introduction To Computer</td>
+        <td><%= one.intro_computer %> </td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Citizenship Education</td>
+        <td><%= one.citizen_edu %> </td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Elementary Probability</td>
+        <td><%= one.elemt_prob %> </td>
+      </tr>
+    </tbody>
+  </table>
+  <h1 style="text-align: center;">Status : <%= one.status %> </h1>
+  <h4 class="btn-print" onclick="printFunction()">Print</h4>
+</div>
+
+<Script>
+  const printFunction = () => {
+    window.print()
+  }
+</Script>

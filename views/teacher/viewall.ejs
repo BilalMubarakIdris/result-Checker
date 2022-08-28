@@ -1,0 +1,37 @@
+<a href="/teacher/option" class="btn btn-info" style="margin-top:5px;">Back</a>
+<h4 >All Students</h4>
+<div class="tableDiv">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Roll No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Intr. To Prog(COM113)</th>
+        <th scope="col">Desc Stats(STAT111)</th>
+        <th scope="col">Digital Elect(COM112)</th>
+        <th scope="col">Comm Skills</th>
+        <th scope="col">Intr To Computer</th>
+        <th scope="col">Citizen Edu</th>
+        <th scope="col">Elem Prob</th>
+      </tr>
+    </thead>
+    <tbody>
+        <%  student.forEach(element => { %>
+            <tr class="head">
+                <th scope="row"><%= element.roll %></th>
+                <td><%= element.name %></td>
+                <td><%= element.com113 %></td>
+                <td><%= element.stat111 %></td>
+                <td><%= element.com112 %></td>
+                <td><%= element.comm_skills %></td>
+                <td><%= element.intro_computer %></td>
+                <td><%= element.citizen_edu %></td>
+                <td><%= element.elemt_prob %></td>
+                <td><%= element.status %></td>
+                <td><a href="/teacher/edit/<%= element._id %> "><img style="margin: 0px 5px;" src="https://img.icons8.com/material-outlined/30/000000/edit.png"/></a>
+                  <a href="/teacher/delete/<%= element._id %> "><img style="margin: 0px 5px;" src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png"/></a></td>
+              </tr>
+        <%}) %>
+    </tbody>
+  </table>
+</div>

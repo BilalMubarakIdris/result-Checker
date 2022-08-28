@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body{
+  margin-left: 10px;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 120px;
+}
+.logo h1{
+  padding: 1.5em;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  }
+
+  .logo p{
+      color: yellow;
+  }
+.navbar{
+  background-color: green;
+
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  padding-top: 1.7em;
+}
+nav ul li{
+  display: inline-block;
+  list-style:none ;
+  padding: 10px  20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+nav ul li a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+.text{
+  margin-left: 47%;
+  margin-top: 60px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.btn{
+  margin-right: 30px;
+  font-weight: bold;
+}
+.optionDiv {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.optionDiv button {
+  margin: 0px 100px;
+}
+.teachLog {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teachForm {
+  padding: 60px 40px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.teachForm input {
+  width: 300px;
+}
+.tableDiv {
+  margin: 10px 200px;
+  padding: 60px 40px;
+  border-radius: 10px;
+}
+.table {
+  text-align: center;
+}
+.addStu {
+  border-width: 2px;
+  padding: 60px 40px;
+  border-radius: 10px;
+  margin: 0 300px;
+}
+.stuTable {
+  border-width: 2px;
+  padding: 60px 40px;
+  border-radius: 10px;
+  margin: 0px 200px;
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.not-found-content{
+  font-size: 20px;
+  color: red;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.profileBox {
+  text-align: center;
+  margin: 20px;
+}
+
+
+/* ===========================main-body=========================== */
+.main-body{
+  width: 100%;
+  height: 500px;
+  background-image: url("comp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+ }

@@ -1,0 +1,50 @@
+<a href="/teacher/viewall" class="btn btn-info" style="margin-top:5px;">Back</a>
+<h4>Editing Form for Student :<%= user.name %> </h4>
+<form method="POST" class="addStu" autocomplete="off">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Name : </label>
+    <input type="text" name="name" required class="form-control" value="<%= user.name  %> " id="exampleInputEmail1">
+  </div>
+  <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Reg No. : </label>
+      <input type="text" name="roll" value="<%= user.roll  %> " required class="form-control" id="exampleInputEmail1" >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Intr. To Prog(COM113) : </label>
+      <input type="text" name="com113" value="<%= user.com113  %> " class="form-control" id="exampleInputEmail1" >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Desc Stats(STAT111) : </label>
+      <input type="text" name="stat111" value="<%= user.stat111  %> " class="form-control" id="exampleInputEmail1" >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Digital Electr(COM112) : </label>
+      <input type="text" name="com112" value="<%= user.com112  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Social Studies : </label>
+      <input type="text" name="ss" value="<%= user.ss  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Comm. Skills : </label>
+      <input type="text" name="comm_skills" value="<%= user.comm_skills  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Intr To Computer : </label>
+      <input type="text" name="intro_computer" value="<%= user.intro_computer  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Citizenship Edu. : </label>
+      <input type="text" name="citizen_edu" value="<%= user.citizen_edu  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Elem Prob : </label>
+      <input type="text" name="elemt_prob" value="<%= user.elemt_prob  %> " class="form-control" id="exampleInputEmail1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Status (pass/fail) : </label>
+      <input type="text" name="status" value="<%= user.status  %> " required class="form-control" id="exampleInputEmail1">
+    </div>
+  <button type="submit" class="btn btn-success">Update</button>
+  <a href="/teacher/viewall" class="btn btn-primary">View All</a>
+</form>
